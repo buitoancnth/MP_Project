@@ -55,7 +55,6 @@ if ( ! function_exists('pt_theme_addon_testimonials') ) {
 		register_post_type( 'ptta-testimonials', $args );
 
 	}
-
 }
 
 add_action( 'init', 'pt_theme_addon_testimonials', 0 );

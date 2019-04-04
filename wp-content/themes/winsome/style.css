@@ -1542,11 +1542,11 @@ object {
 	top:0;
 }
 
-.home.blog #masthead,
+/*.home.blog #masthead,
 .home.page-template-default #masthead{
     background-color: #fff;
 
-}
+}*/
 
 .home.blog #masthead a{
     color: #333;

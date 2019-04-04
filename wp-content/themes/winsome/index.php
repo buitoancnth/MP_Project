@@ -15,7 +15,6 @@
 get_header(); ?>
 
 <?php if ( true === apply_filters( 'winsome_home_page_content', true ) ) : ?>
-
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 

@@ -41,7 +41,6 @@
 	   */
 	  do_action( 'winsone_before_header' );
 	?>
-
 	<?php
 		/**
 		 * Hook - winsome_header.
@@ -58,8 +57,8 @@
 	   */
 	  do_action( 'winsome_after_header' );
 	?>
-
-	<?php
+    <!-- slider-->
+    <?php
 	/**
 	 * Hook - winsome_main_content.
 	 *
@@ -70,6 +69,7 @@
 	do_action( 'winsome_main_content' );
 	?>
 
+    <!-- site-content-->
 	<?php
 	/**
 	 * Hook - winsome_before_content.
@@ -78,3 +78,5 @@
 	 */
 	do_action( 'winsome_before_content' );
 	?>
+
+    <!-- end site-content-->
