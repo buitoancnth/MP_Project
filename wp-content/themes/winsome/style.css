@@ -1544,8 +1544,14 @@ object {
 
 .home.blog #masthead,
 .home.page-template-default #masthead{
-    background-color: #121212;
+    background-color: #fff;
+
 }
+
+.home.blog #masthead a{
+    color: #333;
+}
+
 
 .site-title > a {
     color: #222;
@@ -1556,8 +1562,8 @@ object {
     font-weight: 700;
     margin-bottom: 0;
     font-family: 'Raleway', sans-serif;
-
 }
+
 .site-branding {
     float: left;
     margin-right: 30px;
@@ -5276,6 +5282,7 @@ hr.is-style-dots:before {
     max-width: 100%;
   }
 }
+
 /* == */
 
 /* == Align Full == */
@@ -5299,3 +5306,7 @@ hr.is-style-dots:before {
     }
 }
 /* == */
+
+.hidden{
+    display: none;
+}

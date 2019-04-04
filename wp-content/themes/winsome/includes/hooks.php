@@ -85,7 +85,7 @@ if ( ! function_exists( 'winsome_header_action' ) ) :
     			<?php else : ?>
     				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
     			<?php endif; */?>
-                        <h2 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h2>
+                        <h2 class="site-title hidden"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h2>
     		<?php endif; ?>
 
     		<?php
@@ -94,7 +94,7 @@ if ( ! function_exists( 'winsome_header_action' ) ) :
     		?>
     		<?php if ( true === $show_tagline ) : ?>
     			<?php if ( $description || is_customize_preview() ) : ?>
-    				<h3 class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></h3>
+    				<h3 class="site-description hidden"><?php echo $description; /* WPCS: xss ok. */ ?></h3>
     			<?php endif; ?>
     		<?php endif; ?>
     	</div><!-- .site-branding -->

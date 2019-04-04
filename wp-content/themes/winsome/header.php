@@ -31,7 +31,7 @@
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class('page-template-home '); ?>>
 <div id="page" class="site">
 	<?php
 	  /**

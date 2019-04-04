@@ -205,3 +205,4 @@ require_once trailingslashit( get_template_directory() ) . '/includes/main.php';
 
 /* Turn on wide images */
 add_theme_support( 'align-wide' );
+add_filter('use_block_editor_for_post', '__return_false');
