@@ -14,7 +14,7 @@
 	 *
 	 * @hooked winsome_after_content_action - 10
 	 */
-	do_action( 'winsome_after_content' );
+	//do_action( 'winsome_after_content' );
 
 ?>
 

@@ -56,10 +56,25 @@ get_header(); ?>
                     </div>
                 </div>
             </div>
+            </div>
         </section>
+    <section id="pt-theme-addon-testimonials-1" class="widget pt_theme_addon_widget_testimonials">
+        <div class="container">
+            <div class="pt-testimonials-main">
+                <div class="section-title">
+
+                    <h2 class="widget-title"><span>Testimonials</span></h2>
+                    <div class="seperator">
+                        <span><i class="fa fa fa-comment-o"></i></span>
+                    </div>
+                </div>
+                <?php pt_theme_addon_testimonials_widget_call('testimonial-home', 4); ?>
+            </div>
+        </div>
+    </section>
     </div>
 
-<?php pt_theme_addon_testimonials(); ?>
+
 
     <div id="primary" class="content-area">
         <main id="main" class="site-main" role="main">

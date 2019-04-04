@@ -76,7 +76,7 @@
 	 *
 	 * @hooked winsome_before_content_action - 10
 	 */
-	do_action( 'winsome_before_content' );
+	//do_action( 'winsome_before_content' );
 	?>
 
     <!-- end site-content-->

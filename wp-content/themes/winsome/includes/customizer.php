@@ -37,26 +37,6 @@ function winsome_customize_register( $wp_customize ) {
 	// Load options.
 	require_once trailingslashit( get_template_directory() ) . '/includes/options.php';
 
-	// Load Upgrade to Pro control.
-	require_once trailingslashit( get_template_directory() ) . '/includes/upgrade-to-pro/control.php';
-
-	// Register custom section types.
-	$wp_customize->register_section_type( 'Winsome_Customize_Section_Upsell' );
-
-	// Register sections.
-	$wp_customize->add_section(
-		new Winsome_Customize_Section_Upsell(
-			$wp_customize,
-			'theme_upsell',
-			array(
-				'title'    => esc_html__( 'Winsome Pro', 'winsome' ),
-				'pro_text' => esc_html__( 'Upgrade to PRO', 'winsome' ),
-				'pro_url'  => 'https://www.prodesigns.com/wordpress-themes/downloads/winsome-pro',
-				'priority' => 1,
-			)
-		)
-	);
-
 }
 add_action( 'customize_register', 'winsome_customize_register' );
 
